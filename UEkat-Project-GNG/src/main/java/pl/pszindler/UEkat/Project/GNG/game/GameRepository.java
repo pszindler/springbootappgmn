@@ -7,6 +7,11 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * interfejs odpowiadający za komunikację i operacje na bazie postgresql.
+ */
+
+
 @Repository
 public interface GameRepository
         extends JpaRepository<Game, Long> {

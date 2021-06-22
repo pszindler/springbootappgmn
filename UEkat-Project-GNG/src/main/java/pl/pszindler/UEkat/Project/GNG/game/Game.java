@@ -4,6 +4,13 @@ import javax.persistence.*;
 import java.util.Date;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
+/**
+ * Author: Patryk Szindler
+ * Klasa na potrzeby tworzenia obiekty gry.
+ * Struktura servisu jest następujaca, Warstwa API komunikuje sie z servisem który ma dostęp do Interfejsu
+ * repo, a ten z kolei odpowiada za komunikacje z bazą danych.
+ */
+
 
 @Entity
 @Table
