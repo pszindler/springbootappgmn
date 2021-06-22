@@ -1,0 +1,3 @@
+# springbootappgmn
+
+Proste readme :)
